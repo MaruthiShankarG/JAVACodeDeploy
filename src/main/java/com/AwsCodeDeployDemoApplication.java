@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.solution.HelloController", "com.solution.AwsCodeDeployDemoApplication"})
+@ComponentScan(basePackages = "com.solution.HelloController," + "com.solution.AwsCodeDeployDemoApplication")
 	public class AwsCodeDeployDemoApplication {
 
 	public static void main(String[] args) {
