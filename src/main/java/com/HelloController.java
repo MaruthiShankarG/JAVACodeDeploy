@@ -11,6 +11,7 @@ public class HelloController {
 	@GetMapping("/welcome")
 	public String welcome()
 	{
+		System.out.println("Code is deployed in Code Deploy Again");
 		return "Code is deployed in Code Deploy Again";
 	}
 
